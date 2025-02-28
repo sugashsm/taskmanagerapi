@@ -10,26 +10,28 @@ A Spring Boot application that provides a REST API for managing and executing sh
 - Maven
 
 ## Project Structure
-
-├── src/
+```
+taskmanager/
+├── src/                      # Source files
 │   └── main/
-│       └── java/
-│           └── com/
-│               └── example/
-│                   └── taskmanager/
-│                       ├── controller/
-│                       │   └── TaskController.java
-│                       ├── model/
-│                       │   ├── Task.java
-│                       │   └── TaskExecution.java
-│                       ├── repository/
-│                       │   └── TaskRepository.java
-│                       ├── service/
-│                       │   └── TaskService.java
-│                       └── TaskManagerApplication.java
-├── resources/
-│   └── application.properties
-└── pom.xml
+│       ├── java/             # Backend code
+│       │   └── com/
+│       │       └── example/
+│       │           └── taskmanager/
+│       │               ├── controller/        # Controller layer
+│       │               │   └── TaskController.java    # Task API controller
+│       │               ├── model/            # Data models
+│       │               │   ├── Task.java           # Task entity
+│       │               │   └── TaskExecution.java  # Task execution entity
+│       │               ├── repository/       # Database interactions
+│       │               │   └── TaskRepository.java # Task repository
+│       │               ├── service/          # Business logic
+│       │               │   └── TaskService.java    # Task service layer
+│       │               └── TaskManagerApplication.java # Main application class
+│       └── resources/        # Configuration files
+│           └── application.properties   # Application properties
+└── pom.xml                    # Maven configuration
+```
 
 
 

@@ -107,9 +107,23 @@ DELETE /api/tasks/{id}
 
 ## Testing Screenshots
 1. Creating a task
+
+![image](https://github.com/user-attachments/assets/1f6bc3b2-c04b-47fd-a249-11efd0d9d657)
+
+
 2. Listing tasks
+![image](https://github.com/user-attachments/assets/63b267c9-8aab-4d70-9e00-0ec8685eb311)
+
+
 3. Executing a task
+![image](https://github.com/user-attachments/assets/07353e7f-5fcb-483c-82ff-b16aa17b5921)
+
+
 4. Task execution results]
+![image](https://github.com/user-attachments/assets/a5a5d088-2b26-48cb-8ab8-7dbbc3295c9d)
+
+
+
 
 ## Security Features
 - Command validation to prevent unsafe shell commands

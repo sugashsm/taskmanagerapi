@@ -11,26 +11,26 @@ A Spring Boot application that provides a REST API for managing and executing sh
 
 ## Project Structure
 
-Project Structure
-├── src/
-│   └── main/
-│       └── java/
-│           └── com/
-│               └── example/
-│                   └── taskmanager/
-│                       ├── controller/
-│                       │   └── TaskController.java
-│                       ├── model/
-│                       │   ├── Task.java
-│                       │   └── TaskExecution.java
-│                       ├── repository/
-│                       │   └── TaskRepository.java
-│                       ├── service/
-│                       │   └── TaskService.java
-│                       └── TaskManagerApplication.java
-├── resources/
-│   └── application.properties
-└── pom.xml
+.
+├── ├── src/
+├── │   └── main/
+├── │       └── java/
+├── │           └── com/
+├── │               └── example/
+├── │                   └── taskmanager/
+├── │                       ├── controller/
+├── │                       │   └── TaskController.java
+├── │                       ├── model/
+├── │                       │   ├── Task.java
+├── │                       │   └── TaskExecution.java
+├── │                       ├── repository/
+├── │                       │   └── TaskRepository.java
+├── │                       ├── service/
+├── │                       │   └── TaskService.java
+├── │                       └── TaskManagerApplication.java
+├── ├── resources/
+├── │   └── application.properties
+└── └── pom.xml
 
 
 
